@@ -83,3 +83,22 @@ Vite manifest not found at: C:\workshopBecode\public\build/manifest.json
 > php artisan serve 
 
 - application laravel with Log in and Register
+
+> Installation (concurrently)
+
+- add code next for (update scripts package json)
+
+```
+npm i concurrently -g
+
+"start": "concurrently  \"php artisan config:cache\" \"php artisan serve\" \"npm run dev \"  "
+
+
+scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "start": "concurrently  \"php artisan config:cache\" \"php artisan serve\" \"npm run dev \"  "
+
+    },
+```
+
