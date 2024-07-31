@@ -17,6 +17,14 @@ php artisan migrate
 
 ## Installation Laravel Jestream (blade)
 
-[Jestream official](hhttps://jetstream.laravel.com/installation.html)
+[Jestream official](https://jetstream.laravel.com/installation.html)
 
 [Repo Jestream](https://github.com/artisan24fullstack/laravelStepByStep/tree/main/hike)
+
+
+### Installing Jetstream , Install Jetstream With Livewire ​with blade
+
+```
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+```
