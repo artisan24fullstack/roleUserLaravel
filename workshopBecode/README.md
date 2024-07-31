@@ -19,7 +19,7 @@ php artisan migrate
 
 [Jestream official](https://jetstream.laravel.com/installation.html)
 
-[Repo Jestream](https://github.com/artisan24fullstack/laravelStepByStep/tree/main/hike)
+[Repo Jestream](https://github.com/artisan24fullstack/automatisationLaravel/tree/main/authLaravel)
 
 
 ### Installing Jetstream , Install Jetstream With Livewire ​with blade
@@ -102,3 +102,10 @@ scripts": {
     },
 ```
 
+### Installation Filament
+
+```
+composer require filament/filament:"^3.0"
+
+php artisan filament:install --panels
+```
