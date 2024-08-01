@@ -87,6 +87,7 @@ Vite manifest not found at: C:\workshopBecode\public\build/manifest.json
 > Installation (concurrently)
 
 - add code next for (update scripts package json)
+- npm start
 
 ```
 npm i concurrently -g
@@ -109,6 +110,26 @@ composer require filament/filament:"^3.0"
 
 php artisan filament:install --panels
 ```
+
+### Create a user (admin)
+
+#### Allowing users to access a panel
+
+[Doc](https://filamentphp.com/docs/3.x/panels/installation)
+
+
+> php artisan make:filament-user
+- https://filamentphp.com/docs/3.x/panels/installation#create-a-user
+
+```
+ Name:
+ Email address:
+ Password:
+
+   INFO  Success! (email adresse) may now log in at http://localhost:8000/admin/login.
+```
+
+----------------------------------------------------
 
 
 PREPARE Resources for workshop (BACKEND)
