@@ -114,3 +114,4 @@ php artisan filament:install --panels
 PREPARE Resources for workshop (BACKEND)
 
 > To find out more (ENUMS)
+[Doc ENUMS](https://github.com/artisan24fullstack/roleUserLaravel/blob/main/workshopBecode/enums.md)
